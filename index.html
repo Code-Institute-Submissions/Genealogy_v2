@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="P.Hogan Genealogy Services Informational Homepage">
+    <meta name="keywords" content="Genealogy, Ireland, Family, History">
+    <meta name="author" content="Padraig Hogan">
+    <title>Padraig Hogan Genealogy</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+        <h1 id="title">P.Hogan Genealogy</h1>
+        </a>
+        <nav id="navmenu">
+            <ul>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#info">Info</a>
+                </li>
+                <li>
+                    <a href="#home" class="active">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="home" class="page">
+            <figure id="headshot" class="grey_background grid_box">
+        <img src="assets/images/PJ_Headshot-400x267.jpg" alt="headshot of Padraig Hogan Genealogy">
+        <figcaption> Padraig Hogan - Senior Genealogy Researcher <br> Erin Research Ireland </figcaption>
+            </figure>
+            <section id="aboutme" class="grey_background grid_box">
+        <h2> About Me</h2>
+        <p class="textcontent">Padraig Hogan graduated from U.L. in 1986 with a B. Eng. (Electronics) and spent over 30 years working in the I.T. sector.
+            Following the completion of a Certificate (U.L.) and Diploma (U.C.C.) in genealogy, he completed a Masters (History of the Family) at U.L. in 2020, and now works as a genealogical
+            Researcher for Erin Research working on Probate, Legal and Personal cases.
+            He has previously had a paper published in The Irish Genealogist journal and recently contributed to a broadcast of The History Show on R.T.E.
+            Radio relating to his research into the War of Independence in County Limerick. He lives in County Meath.
+        </p>
+            </section>
+        </article>
+        <article id="info" class="page">
+            <section id="credentials" class="grey_background grid_box">
+                <h2>Credentials</h2>
+                <div id="cred_list">
+                    <div id="masters">
+                        <img src="assets/images/ul_logo.jpg" alt="logo of Univeristy of Limerick">
+                        <h3>Univeristy of Limerick</h3>
+                        <p>Masters of Arts - Ma, History of Family, First Class Honours</p>
+                    </div>
+                    <div id="diploma">
+                        <img src="assets/images/ucc_logo.png" alt="logo of  Univeristy College Cork">
+                        <h3>Univeristy College Cork</h3>
+                        <p>Diploma in Genealogy and History of Family, First Class Honours</p>
+                    </div>
+                    <div id="certificate">
+                        <img src="assets/images/ul_logo.jpg" alt="logo of Univeristy of Limerick">
+                        <h3>Univeristy of Limerick</h3>
+                        <p>Certicate in Genealogy and History of Family, First Class Honours</p>
+                    </div>
+                    <div id="work">
+                        <img src="assets/images/erin_research_logo_small.jpg" alt="Erin Research company logo">
+                        <h3>Senior Genealogical Researcher</h3>
+                        <p>International Probate Genealogists - Freelance</p>
+                    </div>
+                </div>
+            </section>
+            <section id="company_info" class="grey_background grid_box">
+                <h2><img  id="company_logo" src="assets/images/companylogo.png" 
+                    alt="Erin Research Genealogists company title and logo"></h2>
+                    <h3>Erin Research offers the following genealogical services</h3>
+                    <ul id="services">
+                        <li>Finding missing beneficiaries</li>
+                        <li>Tracing next of kin</li>
+                        <li>Verifying a family tree</li>
+                        <li>Tracing an admin for an unclaimed estate</li>
+                        <li>Obtaining missing documents</li>
+                        <li>Finding a missing will</li>
+                    </ul>    
+            </section>
+        </article>
+        <article id="contact" class="page">
+            <section id="contact_textbox" class="grey_background grid_box textcontent">
+                <h2 id="contact_title"> Open the door to your past now!</h2>
+                <p>Fill out this form and begin the exciting journey into your past.<br> Give as much details as you can about your
+                   case and I will get back to you with more details on the process ASAP. 
+                </p>
+            </section>
+            <div id="twitter_box" class="grey_background grid_box">
+                <a class="twitter-timeline" data-theme="dark" href="https://twitter.com/HistoryHogan?ref_src=twsrc%5Etfw">Tweets by HistoryHogan</a> 
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" rel="preconnect"></script>
+            </div>
+            <section id="contact_form" class="grey_background grid_box">
+                <form method="GET" action="form_thank_you.html">
+                    <h2 id="contact_form_title"> Contact Me!</h2>
+                    <label for="full_name">Full Name</label>
+                    <input type="text" id="full_name" name="full_name" class="form_box" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email_address" class="form_box" required>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone_number" class="form_box" required>
+                    <label for="company_name">Company Name (Optional)</label>
+                    <input type="text" id="company_name" name="company_name" class="form_box">
+                    <label for="case_details">Case Details</label>
+                    <textarea id="case_details" name="case_details" class="form_box" required rows="4"></textarea>
+                    <div id="radio_buttons">
+                        <label for="personal">Personal</label>
+                        <input type="radio" id="personal" name="customer_type" value="personal" required>
+                        <label for="legal">Legal</label>
+                        <input type="radio" id="legal" name="customer_type" value="legal" required>
+                        <label for="private">Private</label>
+                        <input type="radio" id="private" name="customer_type" value="private" required>
+                        </div>
+                    <input type="submit" value="Submit" id="submit">
+                </form>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <ul class="social_links">
+            <li>
+                <a href="https://www.facebook.com/padraig.hogan.3" target="_blank" rel="noopener" aria-label="Visit my Facebook page (opens in a new tab)">
+                    <i class="fab fa-facebook"></i>
+                    Facebook
+                </a>
+            </li>
+            <li>
+                <a  href="https://twitter.com/yogihogan"
+                 target="_blank" rel="noopener" aria-label="Visit my Twitter page (opens in a new tab)">
+                 <i class="fab fa-twitter"></i>
+                 Twitter
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/padraig-hogan-8709741/" target="_blank" rel="noopener" aria-label="Connect with me on linkedin (opens in a new tab)">
+                    <i class="fab fa-linkedin-in"></i>
+                    Linkedin
+                </a>
+            </li>
+            <li>
+                <a href="#contact" aria-label="visit the contact page to find out how to book a consultation">
+                    <i class="far fa-calendar-check"></i>
+                    Book Now!
+                </a>
+            </li>
+            <li>
+                <a href="#home" aria-label="go back to top of page"><i class="fas fa-arrow-up"></i>
+                    Back To Top!</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/d2e2397167.js" crossorigin="anonymous" rel="preconnect"></script>
+</body>
+</html>
