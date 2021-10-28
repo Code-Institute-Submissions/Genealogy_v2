@@ -59,6 +59,12 @@ header {
     border-bottom: 1px solid black;
 }
 
+/* main rules*/
+main {
+    width: 100%;
+    height: 2400px;
+}
+
 /* home background image rules */
 #home {
     background-image: url("../images/home_compressed.webp");
@@ -81,12 +87,6 @@ header {
     background-repeat: no-repeat;
     background-size: 100% 1000px;
     background-position: center center;
-}
-
-/* main rules*/
-main {
-    width: 100%;
-    height: 2400px;
 }
 
 /* h2 title rules */
