@@ -1,5 +1,7 @@
+/* import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
 
+/* everything default 0 */
 * {
     margin: 0;
     border: 0;
@@ -7,45 +9,42 @@
 }
 
 /* html rules */
-
-    html {
-        position: relative;
-        min-height: 100vh;
-        min-width: 100vw;
-        font-size:16px;
-        font-family: 'Lato', sans-serif;
-    }
+html {
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-size:16px;
+    font-family: 'Lato', sans-serif;
+}
 
  /* headings rules  */
-
 #title {
     float: left;
     font-size: 2.6rem;
     margin-left: 25px;
 }
 
+/* h1 heading */
 h1 {
     text-transform: uppercase;
     color: black;
     font-family: 'Oswald', sans-serif;
 }
 
-/* nav menu & header rules  */
-
+/* header rules  */
 header {
     height: 75px;
     width: 100%;
     background-color: rgba(98, 133, 92, 0.5);
 }
 
+/* navmenu // title rules */
 #navmenu, #title {
     letter-spacing: 3px;
-}
-
-#title, #navmenu {
     line-height: 70px;
 }
 
+/* navmenu link list items */
 #navmenu li {
     float: right;
     list-style-type: none;
@@ -54,17 +53,18 @@ header {
     font-family: 'Oswald', sans-serif;
 }
 
+/* navmenu links */
 #navmenu a {
     text-decoration: none;
     color: inherit;
 }
 
+/* navmenu link hover */
 #navmenu a:hover {
     border-bottom: 1px solid black;
 }
 
 /* home background image rules */
-
 #home {
     background-image: url("../images/home_compressed.webp");
     background-repeat: no-repeat;
