@@ -70,15 +70,6 @@ header {
     background-repeat: no-repeat;
     background-size: 100% 800px;
     background-position: center center;
-    display: grid;
-    grid-template-columns:  500px 500px;
-    grid-template-rows: repeat(4, 200px);
-    column-gap: 350px;
-    justify-items: stretch;
-    align-items: center;
-    justify-content: center;
-    align-content:  center;
-    clear: both;
 }
 
 /* info background image rules  */
@@ -87,44 +78,23 @@ header {
     background-repeat: no-repeat;
     background-size: 100% 800px;
     background-position: center center;
-    display: grid;
-    grid-template-columns:  500px 500px;
-    grid-template-rows: repeat(4, 200px);
-    column-gap: 350px;
-    justify-items: stretch;
-    align-items: center;
-    justify-content: center;
-    align-content:  center;
-    clear: both;
 }
 
 /* contact section background photo style rules  */
 #contact {
-
     background-image: url("../images/contact_compressed.webp");
     background-repeat: no-repeat;
     background-size: 100% 1000px;
     background-position: center center;
-    display: grid;
-    grid-template-columns:  500px 500px;
-    grid-template-rows: repeat(10, 100px);
-    column-gap: 350px;
-    justify-items: stretch;
-    align-items: center;
-    justify-content: center;
-    align-content:  center;
-    clear: both;
 }
 
 /* main rules*/
-
 main {
     width: 100%;
     height: 2400px;
 }
 
-/* text rules */
-
+/* h2 title rules */
 h2 {
     text-align: center;
     padding-bottom: 25px;
@@ -133,6 +103,7 @@ h2 {
     font-family: 'Oswald', sans-serif;
 }
 
+/* h3 title rules */
 h3 {
     text-align: center;
     color: black;
@@ -140,6 +111,7 @@ h3 {
     font-family: 'Oswald', sans-serif;
 }
 
+/* text content rules */
 .textcontent {
     text-align: center;
     padding: 0 25px 0 25px;
