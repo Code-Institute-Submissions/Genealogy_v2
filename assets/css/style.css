@@ -325,12 +325,14 @@ footer {
 
 }
 
+/* social links rules */
 .social_links {
     text-align: center;
     background-color: rgba(76, 115, 80, 0.5);
     height: 100%;
 }
 
+/* social links list item rules */
 .social_links > li {
     display: inline;
     margin: 1%;
@@ -338,12 +340,12 @@ footer {
     color: black;
 }
 
+/* links in list items rules */
 li > a {
     color: black;
     font-size: 1.2rem;
     text-decoration: none;
 }
-
 
 
 /* for screens smaller then 1400px */
