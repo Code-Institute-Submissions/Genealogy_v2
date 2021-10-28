@@ -10,7 +10,6 @@
 
 /* html rules */
 html {
-    position: relative;
     min-height: 100vh;
     min-width: 100vw;
     font-size: calc(1em + 1vw);
@@ -31,7 +30,7 @@ h1 {
 
 /* header rules  */
 header {
-    width: 100%;
+    width: 100vw;
     background-color: rgba(98, 133, 92, 0.5);
 }
 
@@ -61,7 +60,7 @@ header {
 
 /* main rules*/
 main {
-    width: 100%;
+    width: 100vw;
     height: 2400px;
 }
 
@@ -131,8 +130,8 @@ h3 {
     font-family: 'Oswald', sans-serif;
 }
 
-/* about me rules */
-#aboutme {
+/* about me rules  */
+ #aboutme {
 
 }
 
