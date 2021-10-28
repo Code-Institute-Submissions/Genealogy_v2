@@ -34,7 +34,7 @@ h1 {
 /* header rules  */
 header {
     width: 100%;
-    height: 10%;
+    height: 100px;
     background-color: rgba(98, 133, 92, 0.5);
 }
 
@@ -48,6 +48,7 @@ header {
     float: right;
     list-style-type: none;
     font-family: 'Oswald', sans-serif;
+    margin-right: 3%;
 }
 
 /* navmenu links rules*/
