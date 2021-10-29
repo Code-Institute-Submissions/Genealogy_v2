@@ -172,7 +172,7 @@ h3 {
     align-items: flex-start;
 }
 
-/*credential entry */
+/*credential entry rules */
 .cred_list_entry {
     display: flex;
     flex-direction: row;
@@ -180,7 +180,7 @@ h3 {
     margin-top: 2%;
 }
 
-
+/* cred list img rules */
 .cred_list_entry > img {
     margin-right: 2%;
 }
@@ -191,6 +191,7 @@ h3 {
     width: 90%;
 }
 
+/* company service title rules */
 #company_services_title {
     margin-bottom: 2%;
 }
