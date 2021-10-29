@@ -203,16 +203,6 @@ h3 {
     margin: 1% auto;
 }
 
-/* contact textbox rules */
-#contact_textbox {
-
-}
-
-/* contact form rules */
-#contact_form {
-
-}
-
 /* twitter box rules */
 #twitter_box {
     overflow-y: scroll;
@@ -220,13 +210,12 @@ h3 {
 }
 
 /* form rules*/
-form {
-    text-align: center;
-}
-
-/* form heading rules */
-form h2 {
-
+#form_flexbox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2%;
 }
 
 /* radio buttons rules */
@@ -239,6 +228,8 @@ form h2 {
     border: 2px solid black;
     border-radius: 5px;
     color: black;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 /* form box hover rules */
@@ -251,6 +242,7 @@ form h2 {
     color: black;
     background-color: rgb(98, 133, 92);
     font-family: 'Oswald', sans-serif;
+    margin-top: 2%;
 }
 
 /* submit button hover rules */
