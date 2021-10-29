@@ -10,7 +10,7 @@
 
 /* html rules */
 html {
-    font-size: calc(1em + 1vw);
+    font-size: calc(0.85em + 1vw);
     font-family: 'Lato', sans-serif;
 }
 
@@ -124,8 +124,8 @@ h3 {
 
 .flex_box {
     padding: 2%;
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
 }
 
 /* headshot figure rules */
