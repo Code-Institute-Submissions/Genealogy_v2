@@ -187,7 +187,7 @@ h3 {
 
 /* company logo rules */
 #company_logo {
-    height: 90%;
+    height: 80%;
     width: 90%;
 }
 
@@ -197,8 +197,10 @@ h3 {
 }
 
 /* services list items rules */
-#services li {
-
+#services  {
+    text-align: left;
+    width: 90%;
+    margin: 1% auto;
 }
 
 /* contact textbox rules */
