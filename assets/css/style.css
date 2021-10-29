@@ -216,6 +216,7 @@ h3 {
 /* twitter box rules */
 #twitter_box {
     overflow-y: scroll;
+    overflow-x: scroll;
 }
 
 /* form rules*/
@@ -281,6 +282,7 @@ form h2 {
 
 /* footer  */
 footer {
+    display: none;
     position:fixed;
     bottom:0;
     width:100%;
