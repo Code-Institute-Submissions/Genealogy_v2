@@ -122,6 +122,12 @@ h3 {
     background-color: rgba(242, 252, 243, 0.8);
 }
 
+.flex_box {
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
 /* headshot figure rules */
 #headshot {
     text-align: center;
