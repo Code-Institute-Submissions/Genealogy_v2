@@ -163,53 +163,27 @@ h3 {
     font-family: 'Oswald', sans-serif;
 }
 
-/* about me rules  */
- #aboutme {
-}
-
-/* credentials rules */
-#credentials {
-
-}
-
-/* credentials h2 rules */
-#credentials > h2 {
-
-}
 
 /* credential list rules */
 #cred_list {
-   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 90%;
+    width: 90%;
 }
 
-/* credential img rules */
-#cred_list  img {
-
+/*credential entry */
+.cred_list_entry {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-/* credential list paragraph rules */
-#cred_list p {
-    font-family: 'Lato', sans-serif;
-}
-
-/* masters credential entry */
-#masters {
-
-}
-
-/* diploma credential entry */
-#diploma {
-
-}
-
-/* certificate credential entry */
-#certificate {
-
-}
-
-/* work exp credential entry */
-#work {
-
+.cred_list_entry > img {
+    height: 90%;
+    margin-right: 2%;
 }
 
 /* company info rules */
