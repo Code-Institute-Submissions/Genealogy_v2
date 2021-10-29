@@ -180,26 +180,19 @@ h3 {
     margin-top: 2%;
 }
 
+
 .cred_list_entry > img {
     margin-right: 2%;
 }
 
-/* company info rules */
-#company_info {
-
-}
-
 /* company logo rules */
 #company_logo {
+    height: 90%;
+    width: 90%;
 }
 
-/* company info title */
-#company_info h2 {
-}
-
-/* services  offered rules */
-#services {
-    list-style-position: inside;
+#company_services_title {
+    margin-bottom: 2%;
 }
 
 /* services list items rules */
