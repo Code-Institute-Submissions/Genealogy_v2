@@ -49,11 +49,13 @@ header {
 }
 
 /* navmenu link list items rules */
-#navmenu li {
-    float: right;
+#navmenu {
     list-style-type: none;
     font-family: 'Oswald', sans-serif;
-    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* navmenu links rules*/
