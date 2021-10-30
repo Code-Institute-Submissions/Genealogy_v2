@@ -241,15 +241,19 @@ h3 {
 }
 
 /* submit button rules */
-#submit {
+.button {
     color: black;
     background-color: rgb(98, 133, 92);
     font-family: 'Oswald', sans-serif;
     margin-top: 2%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    text-decoration: none;
 }
 
 /* submit button hover rules */
-#submit:hover {
+.button:hover {
     border: 3px solid black;
 }
 
@@ -282,7 +286,7 @@ h3 {
 }
 
 #thanks_p {
-    margin-bottom: 2%;
+    margin-bottom: 4%;
 }
 
 /* footer  */
