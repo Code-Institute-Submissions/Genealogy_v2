@@ -253,26 +253,36 @@ h3 {
     border: 3px solid black;
 }
 
-/* form thank you page style rules */
+/* thanks page body rules */
 #thanks_page {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/* form thank you page style rules */
+#thanks_main {
     background-image: url(../images/tree.webp);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-/* thank you page content box rules */
+#thanks_heading {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 2%;
+}
+
 #thanks_content {
     text-align: center;
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-radius: 5%;
 }
 
-/* thank you page text content rules */
-#thanks_heading, #thanks_p {
+#thanks_p {
+    margin-bottom: 2%;
 }
 
 /* footer  */
