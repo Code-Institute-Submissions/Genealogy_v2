@@ -332,6 +332,7 @@ footer > a {
 
 }
 
+/* media query min width 730px */
 @media only screen and (min-width: 730px) {
 
     /* figure rules */
@@ -352,6 +353,7 @@ footer > a {
 
 }
 
+/* media query min width 980px */
 @media only screen and (min-width: 980px) {
 
     /* flex box container rules */
@@ -393,6 +395,7 @@ footer > a {
 
 }
 
+/* media query min width 1200px */
 @media only screen and (min-width: 1200px) {
 
     /* root font sizes */
