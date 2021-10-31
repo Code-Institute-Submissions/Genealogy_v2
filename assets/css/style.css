@@ -198,11 +198,16 @@ h3 {
     margin-bottom: 2%;
 }
 
-/* services list items rules */
-#services  {
+/* list container rules */
+.list  {
     text-align: left;
     width: 90%;
-    margin: 1% auto;
+    margin: 2% auto;
+}
+
+/* list item rules */
+li {
+padding: 2%;
 }
 
 /* twitter box rules */
