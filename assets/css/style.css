@@ -347,5 +347,21 @@ footer > a {
         height: 125px;
     }
 
+    /* figure rules */
+    #headshot img {
+        height: 240px;
+        width: 360px;
+    }
+
+    /* info section background photo style rules */
+    #info {
+        height: 1300px;
+    }
+
+    /* contact section background photo style rules  */
+    #contact {
+        height: 1500px;
+    }
+
 }
 
