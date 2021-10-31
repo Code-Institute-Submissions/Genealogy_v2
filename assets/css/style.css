@@ -317,16 +317,18 @@ footer > a {
 
 @media only screen and (min-width: 600px) {
     
+    /* header rules */
     header {
         height: 100px;
     }
 
+    /* figure rules */
     #headshot img {
         height: 200px;
         width: 300px;
       }
 
-
+    /* info section background photo style rules */
     #info {
         height: 1200px;
     }
@@ -337,3 +339,13 @@ footer > a {
     }
 
 }
+
+@media only screen and (min-width: 730px) {
+
+    /* header rules */
+    header {
+        height: 125px;
+    }
+
+}
+
