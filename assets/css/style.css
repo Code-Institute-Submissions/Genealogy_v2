@@ -367,13 +367,14 @@ footer > a {
     /* info background image rules  */
     #info {
         flex-direction: row;
+        height: 1200px;
     }
 
     /* contact section background photo style rules  */
     #contact {
         flex-direction: row;
         flex-wrap: wrap;
-        height: 1400px;
+        height: 1200px;
     }
 
     #contact_textbox {
@@ -391,17 +392,17 @@ footer > a {
 
     /* home background image rules */
     #home {
-        height: 1500px;
+        height: 1400px;
     }
 
     /* info background image rules  */
     #info {
-        height: 1500px;
+        height: 1400px;
     }
 
     /* contact section background photo style rules  */
     #contact {
-        height: 1600px;
+        height: 1500px;
     }   
 
 }
