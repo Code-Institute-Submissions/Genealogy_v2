@@ -210,7 +210,6 @@ padding: 2%;
 
 /* twitter box rules */
 #twitter_box {
-    overflow-y: scroll;
     overflow-x: scroll;
     height: 30%;
 }
@@ -315,11 +314,6 @@ footer > a {
 
 @media only screen and (min-width: 600px) {
     
-    /* header rules */
-    header {
-        /* height: 100px; */
-    }
-
     /* figure rules */
     #headshot img {
         height: 200px;
@@ -340,11 +334,6 @@ footer > a {
 
 @media only screen and (min-width: 730px) {
 
-    /* header rules */
-    header {
-        /* height: 125px; */
-    }
-
     /* figure rules */
     #headshot img {
         height: 240px;
@@ -364,11 +353,6 @@ footer > a {
 }
 
 @media only screen and (min-width: 980px) {
-
-    /* header rules */
-    header {
-        /* height: 125px; */
-    }
 
     /* flex box container rules */
     .flex_box {
