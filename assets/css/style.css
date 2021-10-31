@@ -359,6 +359,12 @@ footer > a {
         width: 40%;
     }
 
+    /* figure rules */
+    #headshot img {
+        height: 220px;
+        width: 330px;
+    }
+
     /* home background image rules */
     #home {
         flex-direction: row;
@@ -384,6 +390,7 @@ footer > a {
     #twitter_box {
         height: 40%;
     }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -408,4 +415,9 @@ footer > a {
         height: 1500px;
     }   
 
+    /* figure rules */
+    #headshot img {
+        height: 260px;
+        width: 390px;
+    }
 }
