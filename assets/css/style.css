@@ -389,6 +389,7 @@ footer > a {
     #contact {
         flex-direction: row;
         flex-wrap: wrap;
+        height: 1400px;
     }
 
     #contact_textbox {
