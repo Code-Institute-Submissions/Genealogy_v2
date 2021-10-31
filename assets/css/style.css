@@ -281,20 +281,23 @@ padding: 2%;
     align-items: center;
 }
 
+/* thank you page heading rules */
 #thanks_heading {
     font-family: 'Oswald', sans-serif;
     margin-bottom: 2%;
 }
 
+/* thanks page content rules */
 #thanks_content {
     text-align: center;
 }
 
+/* thanks page paragraph rules */
 #thanks_p {
     margin-bottom: 4%;
 }
 
-/* footer  */
+/* footer rules*/
 footer {
     position:fixed;
     bottom:0;
@@ -306,6 +309,7 @@ footer {
     align-items: center;
 }
 
+/* footer link rules */
 footer > a {
     color: black;
     padding: 1%;
