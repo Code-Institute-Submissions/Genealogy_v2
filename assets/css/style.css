@@ -309,7 +309,7 @@ footer {
 /* footer link rules */
 footer > a {
     color: black;
-    padding: 1%;
+    padding: 0.2%;
 }
 
 @media only screen and (min-width: 600px) {
@@ -379,5 +379,29 @@ footer > a {
     #contact_textbox {
         width: 70%;
     }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    /* root font sizes */
+    html {
+        font-size: calc(0.7em + 1vw);
+    }
+
+    /* home background image rules */
+    #home {
+        height: 1500px;
+    }
+
+    /* info background image rules  */
+    #info {
+        height: 1500px;
+    }
+
+    /* contact section background photo style rules  */
+    #contact {
+        height: 1600px;
+    }   
 
 }
